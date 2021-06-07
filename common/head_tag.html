@@ -1,3 +1,15 @@
+<script type="text/discourse-plugin" version="0.8">
+  const h = require("virtual-dom").h;
+
+  api.createWidget("extended-about", {
+    tagName: "div.extended-about",
+
+    html() {
+      return h('div', { innerHTML: settings.extended_about });
+    }
+  });
+</script>
+
 <script type="text/x-handlebars" data-template-name="/connectors/about-after-description/long-description">
-{{theme-setting 'extended_about'}}
+{{mount-widget widget="extended-about"}}
 </script>
