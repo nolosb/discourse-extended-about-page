@@ -2,7 +2,7 @@ extended_about:
   type: string
   textarea: true
   description:
-    en: 'Text of the first section on the About page.'
+    en: 'Custom html to extend the description on the About page.'
   default: |
-            <p>Welcome to our Community Forum! This is a place to socialize and share ideas.</p>
+            <p>Welcome to our Community Forum!</p>
             <p>Please take a moment to make yourself familiar with our <strong><a href="/guidelines">Guidelines</a></strong>.</p>
