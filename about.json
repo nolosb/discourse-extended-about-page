@@ -2,7 +2,7 @@
   "name": "Extended About page",
   "component": true,
   "license_url": "https://github.com/nolosb/discourse-extended-about-page/blob/main/LICENSE",
-  "about_url": null,
+  "about_url": "https://github.com/nolosb/discourse-extended-about-page/blob/main/README.md",
   "authors": "",
   "theme_version": null,
   "minimum_discourse_version": null,
