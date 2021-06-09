@@ -2,7 +2,7 @@
 
 A Discourse theme-component. Shows an extended description on the "About" page.
 
-The component provides one option to enter a long about description styled in html:
+The component provides one option to enter a custom description in html notation:
 
 ![component-settings](https://user-images.githubusercontent.com/26887899/121359928-e0f71d00-c92b-11eb-807b-f6bc847fbd69.png)
 
