@@ -6,3 +6,8 @@ extended_about:
   default: |
             <p>Welcome to our Community Forum!</p>
             <p>Please take a moment to make yourself familiar with our <strong><a href="/guidelines">Guidelines</a></strong>.</p>
+hide_default_description:
+  type: bool
+  default: false
+  description:
+    en: "Hide the default short site description."

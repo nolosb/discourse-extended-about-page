@@ -1,8 +1,13 @@
 .about-page {
-    section.about {
-        margin-bottom: 15px;
-    }
-    .about-after-description-outlet {
-        margin-bottom: 40px;
+  section.about {
+    margin-bottom: 15px;
+  }
+  .about-after-description-outlet {
+    margin-bottom: 40px;
+  }
+}
+@if $hide_default_description == "true" {
+  .about-page .about.description p {
+    display: none;
   }
 }
